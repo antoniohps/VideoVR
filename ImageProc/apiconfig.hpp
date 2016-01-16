@@ -1,0 +1,4 @@
+#ifndef APICONFIG_HPP
+#define APICONFIG_HPP
+
+#endif // APICONFIG_HPP

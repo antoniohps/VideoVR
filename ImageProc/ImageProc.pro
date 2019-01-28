@@ -9,11 +9,17 @@ QT       -= core gui
 TARGET = ImageProc
 TEMPLATE = lib
 CONFIG += staticlib
+CONFIG += c++14
+CONFIG += create_prl
 
-SOURCES += imagebase.cpp
+SOURCES += \
+    CDImage.cpp \
+    Image.cpp \
+    Image-opencv.cpp
 
-HEADERS += imagebase.h
-unix {
-    target.path = /usr/lib
-    INSTALLS += target
-}
+HEADERS += \
+    CDImage.h \
+    Image.h \
+    apiconfig.hpp
+
+DEFINES += USE_OPENCV

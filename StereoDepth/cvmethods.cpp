@@ -606,6 +606,7 @@ void kinectTest()
     delete[] data;
 }
 
+/*
 int main(int argc, char** argv)
 {
     //(A)Sample of stereo matching and 3D point cloud rendering
@@ -615,3 +616,4 @@ int main(int argc, char** argv)
 
     return 0;
 }
+*/

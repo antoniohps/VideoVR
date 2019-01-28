@@ -1,1 +1,14 @@
-<RCC/>
+<RCC>
+    <qresource prefix="/arrows">
+        <file>rollLeft128.png</file>
+        <file>rowRight128.png</file>
+        <file>turnDown128.png</file>
+        <file>turnLeft128.png</file>
+        <file>turnRight128.png</file>
+        <file>turnUp128.png</file>
+        <file>arrowDown.png</file>
+        <file>arrowLeft.gif</file>
+        <file>arrowRight.png</file>
+        <file>arrowUp.png</file>
+    </qresource>
+</RCC>

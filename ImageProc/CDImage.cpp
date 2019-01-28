@@ -1,8 +1,8 @@
-#include "MSVRCDImage.h"
+#include "CDImage.h"
 
-namespace msvr {
+namespace ip {
 
-MSVRCDImage::MSVRCDImage()
+CDImage::CDImage()
 {
 
 

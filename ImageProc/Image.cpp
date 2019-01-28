@@ -1,9 +1,7 @@
-#include "MSVRImage.h"
+#include "Image.h"
 
-namespace msvr {
+#ifdef USE_OPENCV
+#include "Image-opencv.cpp"
+#endif
 
-MSVRImage::MSVRImage()
-{
-}
 
-}
